@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+
+}
+
+.about-conatiner{
+    color: white;
+    font-weight: 200;
+    padding: 40px;
+}
+.about-conatiner h4{
+    padding: 20px 0;
+}
+.about-conatiner p{
+    color: rgba(255, 255, 255, 0.747);
+}
+.about-conatiner a{
+    color: rgba(0, 204, 255, 0.849);
+    text-decoration: none;
+}
+.about-conatiner ul{
+ padding-left: 30px;
+}
