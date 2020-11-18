@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './component/Home'
 import About from './component/About'
 import {Switch,Route} from 'react-router-dom'
+import Error from './component/Error'
 
 const App =()=>{
   return(
@@ -9,6 +10,7 @@ const App =()=>{
     <Switch>
       <Route  exact path="/" component={Home} />
       <Route   path="/about" component={About} />
+      <Route component={Error}/>
     </Switch>
     
     </>
